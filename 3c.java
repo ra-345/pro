@@ -30,7 +30,7 @@ public class Hill {
         while (msg.length() % 4 != 0) { 
             msg += "X"; 
         }
-          // Encryption 
+ 
         String cipher = ""; 
         for (int i = 0; i < msg.length(); i += 4) { 
             int[] v = { 
@@ -45,7 +45,7 @@ public class Hill {
             } 
         } 
         System.out.println("Encrypted Text: " + cipher); 
-        // Decryption 
+        
         String plain = ""; 
         for (int i = 0; i < cipher.length(); i += 4) { 
             int[] v = { 
