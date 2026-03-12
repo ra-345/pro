@@ -14,7 +14,7 @@ public class SubstitutionCipher {
         String encrypt = "";
         char c;
 
-        // Encryption
+       
         for (int i = 0; i < str.length(); i++) {
             c = str.charAt(i);
             int j = a.indexOf(c);
@@ -28,7 +28,7 @@ public class SubstitutionCipher {
 
         System.out.println("Encrypted data: " + encrypt);
 
-        // Decryption
+        
         String decrypt = "";
 
         for (int i = 0; i < encrypt.length(); i++) {
