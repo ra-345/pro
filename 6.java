@@ -9,8 +9,7 @@ public class AESExample {
     public static void main(String[] args) throws Exception { 
  
         Scanner sc = new Scanner(System.in); 
- 
-        // Generate AES Key 
+
         KeyGenerator keyGen = KeyGenerator.getInstance("AES"); 
         keyGen.init(128);  
         SecretKey secretKey = keyGen.generateKey(); 
